@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar py-lg-2 mt-2" style="font-family:Roboto Mono; background-color:rgb(18,19,19); color:white;">
+        <div class="container text-center">
+          <a class="navbar-brand" style="font-family: Roboto Mono; font-weight: bolder; color: white;" href="#index.html">weather info</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" style="width: 60vh;" type="search" placeholder="city">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/new.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="row">
+        <div class="col-md-8 mb-4 mt-2">
+          <div class="card p-5" style="height:312px;background-color:rgb(24, 25, 25);color: aliceblue;">
+            <h2 class="fs-5">Current Weather</h2>
+            <p class="mb-1">2:59 PM</p>
+            <div class="d-flex align-items-center">
+              <h1 class="display-3 mb-0 me-3">12°F</h1>
+              <div>
+                <p class="mb-0">Rainy</p>
+                <small>Feels Like 35°</small>
+              </div>
+            </div>
+            <p class="mt-3">There will be mostly sunny skies. The high will be 35°.</p>
+          </div>
+        </div>
+  
+        <div class="col-md-4 mt-2">
+          <div class="row g-2">
+            <div class="col-6">
+              <div class="card text-center p-3" style=background-color:rgb(220,0,0);color:aliceblue;>
+                <p class="mb-1">Air Quality</p>
+                <h4>156</h4>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card text-center p-3 "style=background-color:rgb(24,25,25);color:aliceblue;>
+                <p class="mb-1">Wind</p>
+                <h4>1 mph</h4>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card text-center p-3 "style=background-color:rgb(24,25,25);color:aliceblue;>
+                <p class="mb-1">Humidity</p>
+                <h4>54%</h4>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card text-center p-3 "style=background-color:rgb(18,19,19);color:aliceblue;>
+                <p class="mb-1">Visibility</p>
+                <h4>3 mi</h4>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card text-center p-3" style=background-color:rgb(18,19,19);color:aliceblue;>
+                <p class="mb-1">Pressure</p>
+                <h4>27.65 in</h4>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card text-center p-3" style=background-color:rgb(18,19,19);color:aliceblue;>
+                <p class="mb-1">Pressure</p>
+                <h4>66°</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
